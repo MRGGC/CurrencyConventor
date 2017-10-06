@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Currency Converter</title>
+
+        <link rel="stylesheet" href="./../lib/w3.css">
+        <link rel="stylesheet" href="./main.css">
+        <script src="./../lib/jquery.js" charset="utf-8"></script>
+
+        <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+    </head>
+    <body>
+
+    <script src="./main.js" charset="utf-8"></script>
+
+        <div class="all">
+
+            <div class="w3-container w3-card-4 header">
+
+                <center>
+
+                    <h4><span>$ </span>Currency Converter <span>$</span></h4>
+
+                </center>
+
+            </div>
+
+            <br>
+
+            <div class="main">
+
+                <center>
+
+                    <input type="number" placeholder="100" min="0" required id="valueInput">
+
+                    <br><br>
+
+                    <div class="options">
+
+                        <select id="convertFrom">
+                            <!-- <option value="">10</option> -->
+                        </select>
+
+                        to
+
+                        <select id="convertTo">
+                            <!-- <option value="">10</option> -->
+                        </select>
+
+                    </div>
+
+                    <br>
+
+                    <button type="button" class="w3-btn w3-green w3-round convertBtn" name="button" onclick="convert">Convert</button>
+
+
+                </center>
+
+            </div>
+
+            <div class="w3-container w3-display-bottommiddle footer">
+
+                <center><p id="footer_text">Information is taken from <a type="_blank" href="#">European Central Bank</a></p></center>
+
+            </div>
+
+        </div>
+
+        <div class="w3-display-middle w3-card-4 w3-round popupResult">
+
+            <div class="w3-display-middle">
+                <hr>
+                <center><h1 id="res">d</h1></center>
+                <hr>
+            </div>
+
+        </div>
+
+    </body>
+</html>
