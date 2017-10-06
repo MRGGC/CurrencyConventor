@@ -1,0 +1,2 @@
+# CurrencyConventor
+Converts currency values.
